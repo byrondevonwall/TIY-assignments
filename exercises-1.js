@@ -73,8 +73,11 @@ console.log(array)
 
 
 // .filter()
-
-
+function largeEnough(value) {
+  return value >= 10;
+}
+var filtered = [9, 17, 4, 18, 23, 7, 125, 22].filter(largeEnough);
+console.log(filtered)
 
 // .map()
 var numbers = [1, 4, 9]

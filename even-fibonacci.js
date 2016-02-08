@@ -14,11 +14,11 @@ for(i=2; i<=33; i++)
     fib[i] = fib[i-2] + fib[i-1];
     //if number is divisible by 2 pass it to fib[i], and add each divisible number to a sum recursively then log the array
     if(fib[i]%2 === 0){
-      sum1 = sum1 + fib[i];
+      sum1 += fib[i];
       // console.log(fib[i]);
     }
   }
-console.log("The sum of all even terms below 4,000,000 in the Fibonacci sequence is: " + sum1);
+console.log("The sum of all even terms in the Fibonacci sequence that do not exceed 4,000,000 is: " + sum1);
 
 
 //HARD MODE
