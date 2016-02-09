@@ -21,7 +21,7 @@ movie.textContent = "The Big Lebowski";
 var food = document.getElementById("food");
 food.textContent = "Pho";
 
-// iterate through each li and change the class to listitem
+// iterate through each li and change the class to listitem then add a style tag that sets a rule for listitem to make the color red.
 var liChange = document.getElementsByTagName('li')
 var length = liChange.length;
 for (var liC = 0; liC < length; liC++) {
@@ -29,6 +29,9 @@ for (var liC = 0; liC < length; liC++) {
   liChange[liC].style = "color:red";
 }
 
- //then add a style tag that sets a rule for listitem to make the color red.
- // var changeRed = document.getElementsByClassName("listitem")
- // changeRed.style.color = "red";
+// Create a new img element and set its src attribute to a picture of you. Append that element to the page.
+var me = new Image(200, 200);
+me.src = "./me.jpg";
+console.log(me);
+body.appendChild(me);
+// document.write('<img src="me.jpg">');
