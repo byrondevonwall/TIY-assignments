@@ -2,22 +2,22 @@
 //NORMAL MODE
 //By considering the terms in the Fibonacci sequence whose values do not exceed 4 million, find the sum of the even-valued terms.
 var sum1 = 0;
-var i;
+var num; //in the real world, dont use i as a variable name for clarity's sake
 var fib = []; // Initialize array!
 //place 0 in array fib set to 0, place 1 in array fib set to 1
 fib[0] = 0;
 fib[1] = 1;
-//start at 2 (pos 3 in array fib) and iterate by 1 33 times
-for(i=2; i<=33; i++)
-{
+//start at 2 (pos 3 in array fib) and iterate by 1 33+ times
+for(num=2; num<=37; num++){
     // Next fibonacci number = previous + one before previous
-    fib[i] = fib[i-2] + fib[i-1];
-    //if number is divisible by 2 pass it to fib[i], and add each divisible number to a sum recursively then log the array
-    if(fib[i]%2 === 0){
-      sum1 += fib[i];
+    fib[num] = fib[num-2] + fib[num-1];
+    //if number is divisible by 2 and less than 4000000 pass it to fib[i], and add each divisible number to a sum recursively then log the array
+    if(fib[num]%2 === 0 && fib[num] <= 4000000){
+      sum1 += fib[num];
       // console.log(fib[i]);
     }
   }
+
 console.log("The sum of all even terms in the Fibonacci sequence that do not exceed 4,000,000 is: " + sum1);
 
 
