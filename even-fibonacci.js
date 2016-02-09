@@ -37,4 +37,4 @@ for (var i = 1; i < 1000; i++) {
     }
 }
 
-console.log("The sum of all multiples between three and five below 1000 is: " + sum2);
+console.log("The sum of all multiples of three and five below 1000 is: " + sum2);
