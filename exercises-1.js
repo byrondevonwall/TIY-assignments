@@ -62,7 +62,7 @@ console.log(cats);
 var cats = ['pringle', 'shambhala', 'funtimes', 'bathands', 'bumble', 'okra'];
 console.log(cats);
 var catsShifted = cats.shift();
-console.log(cats);
+console.log(catsShifted);
 
 
 // .unshift()
