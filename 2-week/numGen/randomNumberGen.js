@@ -1,8 +1,6 @@
 function rand() {
    var a = document.getElementById('a').value;
-  //  var b = document.getElementById('b').value;
 
-  //  var userNum = parseInt(a) + parseInt(b);
    var userNum = parseInt(a);
    var randNum = Math.floor(Math.random() * 10) + 1;
   //  alert(userNum);
