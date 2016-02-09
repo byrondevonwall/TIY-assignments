@@ -9,9 +9,6 @@ for(num = 0; num <= 20; num++){
 
 //exercise 2
 
-var verb = "swim"
-// var ing = "ing"
-// var ly = "ly"
 
 function verbing(verb){
   if(verb.length >= 2){
@@ -21,4 +18,17 @@ function verbing(verb){
     return(verb);
   }
 }
-console.log(verb)
+console.log(verbing("swim"))
+
+
+//actual answr
+
+function verbing(word){
+  if(word.length < 3) return word;
+  if(word.slice(-3) === "ing"){
+    return word + 'ly'
+  } else {
+    return word + 'ing';
+  }
+}
+console.log(verbing("swim"))
