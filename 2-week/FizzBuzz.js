@@ -1,5 +1,3 @@
-var num;
-
 for (num = 1; num <= 100; num++){
   // if(num%15 === 0)
   if(num%3 === 0 && num%5 === 0){
@@ -11,7 +9,6 @@ for (num = 1; num <= 100; num++){
   else if (num %5 === 0){
     console.log("Buzz");
   }
-
   else{
     console.log(num);
   }
