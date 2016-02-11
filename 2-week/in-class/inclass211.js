@@ -1,5 +1,3 @@
-var maxAge = 100;
-
 function calculateSupply(age, dailyAmt){
   var supply = age*(dailyAmt*365);
   console.log(supply);
