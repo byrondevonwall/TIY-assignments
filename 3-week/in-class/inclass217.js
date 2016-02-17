@@ -8,6 +8,15 @@ function helloWorld(lang){
   else if (lang === "hindi"){
     console.log("नमस्ते दुनिय!!!");
   }
+  else if (lang === "kr"){
+    console.log("안녕하세요 세계!!!");
+  }
+  else if (lang === "ru"){
+    console.log("Привет мир!!!");
+  }
+  else if (lang === "en"){
+    console.log("Hello world, english is boring");
+  }
   else{
     console.log("pick another language");
   }
@@ -16,3 +25,6 @@ function helloWorld(lang){
 helloWorld("cn");
 helloWorld("jp");
 helloWorld("hindi");
+helloWorld("kr");
+helloWorld("ru");
+helloWorld("en");
