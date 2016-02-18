@@ -1,5 +1,5 @@
 function helloWorld(lang){
-  if (lang === 'cn'){
+  if (lang === 'cn' || lang === '中文'){
     console.log("世界好！！！");
   }
   else if (lang === "jp"){
@@ -28,3 +28,4 @@ helloWorld("hindi");
 helloWorld("kr");
 helloWorld("ru");
 helloWorld("en");
+helloWorld("fr");
