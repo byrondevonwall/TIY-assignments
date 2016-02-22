@@ -11,7 +11,7 @@ function greaterNum(arg1, arg2){
     console.log(num1 + " is equal to " + num2);
   }
   else if(arg1 === NaN || arg2 === NaN){
-    console.log("Please insert numbers to compare, not things that are not numbers.  KTHXBAI")
+    console.log("Please insert numbers to compare, not things that are not numbers.  KTHXBAI");
   }
 }
 
@@ -19,4 +19,5 @@ greaterNum(10, 8);
 greaterNum(11, 3);
 greaterNum(100, 82);
 greaterNum(17, 17000);
+greaterNum(17, 17);
 greaterNum("pandas", "kittens");
