@@ -9,7 +9,7 @@ function assignGrade(score){
     case num >= 80:
     console.log("B");
     break;
-    case num >= 70:
+    case num = 70:
     console.log("C");
     break;
     case num >= 60:
@@ -23,4 +23,4 @@ function assignGrade(score){
   }
   console.log(num);
 }
-assignGrade(75);
+assignGrade(70);
