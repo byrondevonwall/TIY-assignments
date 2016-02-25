@@ -12,6 +12,6 @@ for(var c = 0; c<=favStuff.length-1; c++){
 }
 }
 //
-// favStuff.each(function(c){
+// $.favStuff.each(function(c){
 // console.log("my "+[c+1]+" choice is "+favStuff[c]);
 // })
