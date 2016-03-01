@@ -1,0 +1,12 @@
+@mixin border($thickness){
+  -webkit-border: $thickness;
+  -moz-border: $thickness;
+  -ms-border: $thickness;
+  border: $thickness;
+  @content;
+}
+
+
+img{
+  border-style: solid;
+  @include border(10px);}
