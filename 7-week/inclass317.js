@@ -11,3 +11,4 @@ function dontRepeat(str){
 
 dontRepeat('abacddbec');
 dontRepeat('hheeerrtttlloooolloddhfhs');
+dontRepeat('hkjhjhjhkjhjhjhjhjhjkhjhjyhjhjhjhjhjhjhjh');
